@@ -64,7 +64,7 @@ printf("---------------\n");
 
 
 for(int i=0;i<3;i++){
-    if(mediano>(ppersona+pm)->edad&&mediano<(ppersona+pmy)->edad){
+    if(mediano<(ppersona+pmy)->edad&&mediano>(ppersona+pm)->edad){
             pmd=i;
         mediano=(ppersona+i)->edad;
     }
